@@ -5,5 +5,4 @@
 # print("print('what to print')")
 
 # Insert a newline 
-print("Hello world!\nHello 
-world!")
+print("Hello" + " " + "Gaurav")
