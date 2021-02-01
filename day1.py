@@ -5,23 +5,31 @@
 # print("print('what to print')")
 
 # Insert a newline 
-# print("Hello" + " " + "Gaurav")
+print("Hello" + " " + "Gaurav")
 
 #--->>> Day 1 - String Manipulation <<<---
 # String Concatenation is done with the "+" sign.
 # e.g. print("Hello " + "world")
 # New lines can be created with a backslash and n.
 
-# print("Day 1" + "-" + "String Manipulation")
-# print('String Concatenation is done with the "+" sign.')
-# print('e.g. print("Hello " + "world"')
-# print(("New lines can be created with a backslash and n."))
+print("Day 1" + "-" + "String Manipulation")
+print('String Concatenation is done with the "+" sign.')
+print('e.g. print("Hello " + "world"')
+print(("New lines can be created with a backslash and n."))
 
 # input() 
 # Then print() with input
-# print("Hello " + input("What is Your name?"))
+print("Hello " + input("What is Your name?"))
 
 # Write a program that prints the number of characters in a user's name. 
 # You might need to Google for a function that calculates the length of a string.
 print( len(input("What is your name? ") ) )
 
+# Write a program that switches the values stored in the variables a and b.
+a = input("a :")
+b = input("b :")
+
+a , b = b , a
+
+print("a:" + a)
+print("b: " + b)
