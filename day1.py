@@ -17,4 +17,6 @@
 # print('e.g. print("Hello " + "world"')
 # print(("New lines can be created with a backslash and n."))
 
+# input() 
+# Then print() with input
 print("Hello " + input("What is Your name?"))
