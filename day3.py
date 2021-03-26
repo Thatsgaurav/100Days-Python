@@ -9,11 +9,8 @@
 # Over 25 but below 30 they are slightly overweight
 # Over 30 but below 35 they are obese
 # Above 35 they are clinically obese.
-# https://cdn.fs.teachablecdn.com/qTOp8afxSkGfU5YGYf36
 
 # The BMI is calculated by dividing a person's weight (in kg) by the square of their height (in m):
-
-# https://cdn.fs.teachablecdn.com/jKHjnLrNQjqzdz3MTMyv
 
 # Warning you should round the result to the nearest whole number. The interpretation message needs to include the words in bold from the interpretations above. e.g. underweight, normal weight, overweight, obese, clinically obese.
 
@@ -28,8 +25,6 @@
 # Your BMI is 28, you are slightly overweight.
 # Your BMI is 28, you are slightly overweight.
 # e.g. When you hit run, this is what should happen:
-
-# https://cdn.fs.teachablecdn.com/mGRynIETXuVqoDk8unci
 
 # The testing code will check for print output that is formatted like one of the lines below:
 
