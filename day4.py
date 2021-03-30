@@ -24,13 +24,13 @@
 # Tails
 # ```
 
-# import random
+import random
 
-# random_side = random.randint(0, 1)
-# if random_side == 1:
-#   print("Heads")
-# else:
-#   print("Tails")
+random_side = random.randint(0, 1)
+if random_side == 1:
+  print("Heads")
+else:
+  print("Tails")
 
 # -------------------------------------- >>>
 
@@ -77,3 +77,18 @@ print(person_who_will_pay + " is going to buy the meal today!")
 # ['⬜️', '⬜️', '⬜️']
 # ['⬜️', '⬜️', '⬜️']
 
+
+row1 = ['⬜️', '⬜️', '⬜️']
+row2 = ['⬜️', '⬜️', '⬜️']
+row3 = ['⬜️', '⬜️', '⬜️']
+map = [row1, row2, row3]
+print(f"{row1}\n{row2}\n{row3}")
+
+position = input("What do you want to put the trasure? ")
+
+horizontal = int(position[0])
+vertical = int(position[1])
+
+map[vertical - 1][horizontal - 1] = "x"
+
+print("{row1}\n{row2}\n{row3}")
