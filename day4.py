@@ -58,3 +58,22 @@ random_choice = random.randint(0, num_items - 1)
 person_who_will_pay = names[random_choice]
 
 print(person_who_will_pay + " is going to buy the meal today!")
+
+# --------------------------------------------------------------------- >>>>
+
+# Instructions
+# You are going to write a program which will mark a spot with an X.
+
+# In the starting code, you will find a variable called map.
+
+# This map contains a nested list.
+# When map is printed this is what the nested list looks like:
+
+# ['⬜️', '⬜️', '⬜️'],['⬜️', '⬜️', '⬜️'],['⬜️', '⬜️', '⬜️']
+# ['⬜️', '⬜️', '⬜️'],['⬜️', '⬜️', '⬜️'],['⬜️', '⬜️', '⬜️']
+# In the starting code, we have used new lines (\n) to format the three rows into a square, like this:
+
+# ['⬜️', '⬜️', '⬜️']
+# ['⬜️', '⬜️', '⬜️']
+# ['⬜️', '⬜️', '⬜️']
+
